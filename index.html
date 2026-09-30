@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitBuddy - Fitness Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏋️‍♂️️ FitBuddy Assistant</h1>
+        <p>உங்கள் உடல்நலனைக் கணக்கிட தகவல்களை உள்ளிடவும்:</p>
+
+        <div class="input-group">
+            <label for="height">உயரம் (cm):</label>
+            <input type="number" id="height" placeholder="எ.கா: 165">
+        </div>
+
+        <div class="input-group">
+            <label for="weight">எடை (kg):</label>
+            <input type="number" id="weight" placeholder="எ.கா: 60">
+        </div>
+
+        <button onclick="calculateFitness()">கணக்கிடு (Calculate)</button>
+
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
